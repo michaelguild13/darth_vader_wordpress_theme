@@ -1,0 +1,145 @@
+body {
+  color: #a3a6b1;
+  font-family: "PT+Serif", sans-serif, serif;
+  font-size: 10px;
+  background: #19191c;
+}
+
+/*
+Typography
+ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #fff;
+  font-family: "Montserrat", helvetica, arial;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+}
+
+h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+}
+
+button,
+.btn{
+  font-size: 1.2rem;
+  font-family: "Montserrat", helvetica, arial;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 2px;
+}
+.btn.btn-primary{
+  background-color: #5a72bf;
+}
+.btn.btn-danger{
+  background-color: #c82d4e;
+}
+
+/*
+Custom Classes
+ */
+.text-box {
+  margin: 1rem;
+  color: #8c8c8e;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-family: "Montserrat", helvetica, arial;
+  font-weight: bold;
+  letter-spacing: .2rem;
+  padding: 1rem;
+  border: 1px solid #8c8c8e;
+}
+.socialico {
+  padding: 1rem;
+  color: #fff;
+  font-family: "socialico";
+}
+.img-invert {
+  -webkit-filter: invert();
+  filter: url("data:image/svg+xml;utf8,<svg height='0' xmlns='http://www.w3.org/2000/svg'><filter id='negative'><feColorMatrix values='-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0'/></filter></svg>#negative");
+  filter: progid:DXImageTransform.Microsoft.BasicImage(invert=1);
+  -ms-filter: 'progid:DXImageTransform.Microsoft.BasicImage(invert=1)';
+}
+.img-primary {
+  border: 1px solid #5a72bf;
+}
+.img-danger {
+  border: 1px solid #c82d4e;
+}
+
+.section {
+  padding: 50px 0;
+  background-color: #202024;
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: auto 100%;
+}
+
+.instagram-gallery {
+  margin-bottom: 2rem;
+}
+.instagram-gallery .img-responsive{
+  margin: 2rem auto;
+}
+
+/*
+ CTA Menu Styles
+ */
+.menu-cta-container {
+
+}
+.menu-cta-container .menu {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2rem 0;
+}
+.menu-cta-container .menu .menu-item {
+  position: relative;
+  display: inline-block;
+  margin: 5%;
+  height: 13.5rem;
+  width: 13.5rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10rem;
+  border: 1px solid #5a72bf;
+}
+.menu-cta-container .menu .menu-item a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: 110%;
+  width: 100%;
+  color: #5a72bf;
+  text-transform: uppercase;
+  font-family: "Montserrat", helvetica, arial;
+  font-size: 1.6rem;
+  letter-spacing: .2rem;
+}
+.menu-cta-container .menu .menu-item.contribute a {
+  color: #c82d4e;
+}
+.menu-cta-container .menu .menu-item.contribute{
+  border-color: #c82d4e;
+  background-size: 45%;
+  background-image: url(img/contribute_icon.svg);
+}
+.menu-cta-container .menu .menu-item.sign-up{
+  background-size: 40%;
+  background-image: url(img/signup_icon.svg);
+}
+.menu-cta-container .menu .menu-item.volunteer{
+  background-size: 75%;
+  background-image: url(img/volunteer_icon.svg);
+}
